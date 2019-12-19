@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4jS-ae-3TM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Launch Screen Fake-->
+        <scene sceneID="psr-pN-jCb">
+            <objects>
+                <viewController id="4jS-ae-3TM" customClass="LaunchScreenFake" customModule="Laba42" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nmp-Eo-zsy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iqj-nk-BcP">
+                                <rect key="frame" x="34" y="411" width="227" height="12"/>
+                                <color key="backgroundColor" red="0.01463198103" green="0.97432833910000005" blue="0.44302690030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iqj-nk-BcP" secondAttribute="height" multiplier="227:12" id="aTE-I4-YRY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ER5-s9-qo9">
+                                <rect key="frame" x="34" y="453" width="192" height="12"/>
+                                <color key="backgroundColor" red="0.01463198103" green="0.97432833910000005" blue="0.44302690030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ER5-s9-qo9" secondAttribute="height" multiplier="16:1" id="uXD-cC-m0y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BCk-qd-cai">
+                                <rect key="frame" x="34" y="497" width="205" height="12"/>
+                                <color key="backgroundColor" red="0.38529884819999999" green="0.95417767760000005" blue="0.50187718869999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BCk-qd-cai" secondAttribute="height" multiplier="205:12" id="ekA-3h-cmY"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E9y-c9-bmT">
+                                <rect key="frame" x="32.000000000000014" y="382" width="224.33333333333337" height="129"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Образование." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5N4-yv-euA">
+                                        <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="43"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Комьюнити." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6x-JT-mFf">
+                                        <rect key="frame" x="0.0" y="43" width="224.33333333333334" height="43"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Менторство." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ske-pL-mg2">
+                                        <rect key="frame" x="0.0" y="86" width="224.33333333333334" height="43"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoDefault" translatesAutoresizingMaskIntoConstraints="NO" id="su9-Dr-H2F">
+                                <rect key="frame" x="32" y="311" width="164" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="su9-Dr-H2F" secondAttribute="height" multiplier="164:31" id="e0B-mM-ldG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38039215686274508" green="0.47843137254901957" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ER5-s9-qo9" firstAttribute="top" secondItem="iqj-nk-BcP" secondAttribute="bottom" constant="30" id="24h-ZU-0rg"/>
+                            <constraint firstItem="su9-Dr-H2F" firstAttribute="top" secondItem="nmp-Eo-zsy" secondAttribute="top" constant="311" id="Hib-Ds-bj4"/>
+                            <constraint firstItem="BCk-qd-cai" firstAttribute="top" secondItem="ER5-s9-qo9" secondAttribute="bottom" constant="32" id="Xi6-tJ-6dG"/>
+                            <constraint firstItem="BCk-qd-cai" firstAttribute="width" secondItem="nmp-Eo-zsy" secondAttribute="width" multiplier="0.546667" id="bie-3N-kwS"/>
+                            <constraint firstItem="E9y-c9-bmT" firstAttribute="leading" secondItem="rdN-5V-Pgs" secondAttribute="leading" constant="32" id="f7P-q6-XSc"/>
+                            <constraint firstItem="ER5-s9-qo9" firstAttribute="leading" secondItem="rdN-5V-Pgs" secondAttribute="leading" constant="34" id="fNa-1l-3gB"/>
+                            <constraint firstItem="ER5-s9-qo9" firstAttribute="width" secondItem="nmp-Eo-zsy" secondAttribute="width" multiplier="0.512" id="gAo-dc-Woi"/>
+                            <constraint firstItem="su9-Dr-H2F" firstAttribute="width" secondItem="nmp-Eo-zsy" secondAttribute="width" multiplier="0.437333" id="lCH-ww-4uu"/>
+                            <constraint firstItem="iqj-nk-BcP" firstAttribute="leading" secondItem="rdN-5V-Pgs" secondAttribute="leading" constant="34" id="lOI-C2-Q4p"/>
+                            <constraint firstItem="iqj-nk-BcP" firstAttribute="width" secondItem="nmp-Eo-zsy" secondAttribute="width" multiplier="0.605333" id="oU9-xj-rSH"/>
+                            <constraint firstItem="BCk-qd-cai" firstAttribute="leading" secondItem="rdN-5V-Pgs" secondAttribute="leading" constant="34" id="r2w-x2-6Vl"/>
+                            <constraint firstItem="E9y-c9-bmT" firstAttribute="top" secondItem="su9-Dr-H2F" secondAttribute="bottom" constant="40" id="ugT-Nr-GRl"/>
+                            <constraint firstItem="su9-Dr-H2F" firstAttribute="leading" secondItem="rdN-5V-Pgs" secondAttribute="leading" constant="32" id="w8h-Jx-Xmf"/>
+                            <constraint firstItem="iqj-nk-BcP" firstAttribute="top" secondItem="su9-Dr-H2F" secondAttribute="bottom" constant="69" id="yxB-Ve-aFs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rdN-5V-Pgs"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstLine" destination="iqj-nk-BcP" id="2Xw-6N-WGp"/>
+                        <outlet property="firstTextLabel" destination="5N4-yv-euA" id="944-yw-ts3"/>
+                        <outlet property="secondLine" destination="ER5-s9-qo9" id="weE-w2-Lzm"/>
+                        <outlet property="secondTextLabel" destination="s6x-JT-mFf" id="o7O-Rg-lR8"/>
+                        <outlet property="thirdLine" destination="BCk-qd-cai" id="imY-x0-Xmn"/>
+                        <outlet property="thirdTextLabel" destination="Ske-pL-mg2" id="781-fR-Qm5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3K-iU-gxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="XmC-Lc-yYs">
+                    <rect key="frame" x="0.0" y="0.0" width="192" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <viewLayoutGuide key="safeArea" id="Ro8-Ol-S3l"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-117.59999999999999" y="113.79310344827587"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoDefault" width="164" height="31"/>
+    </resources>
+</document>
