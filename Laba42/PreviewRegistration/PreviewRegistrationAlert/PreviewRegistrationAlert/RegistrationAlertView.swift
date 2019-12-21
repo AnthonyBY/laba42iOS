@@ -8,24 +8,32 @@
 
 import UIKit
 
-class PreRegistrationAlertView: UIView {
-
+class RegistrationAlertView: UIView {
+  
+  @IBOutlet var containerView: UIView!
   @IBOutlet weak var registrationTitle: UILabel!
   @IBOutlet weak var registrationButtonOutlet: UIButton!
   
   override func awakeFromNib() {
     super.awakeFromNib()
+    commonInit()
     setViewAppearance()
+    
   }
   
   @IBAction func registrationButtonAction(_ sender: UIButton) {
     
   }
   
-  
+  // Ser view appearance
   private func setViewAppearance() {
     registrationButtonOutlet.layer.cornerRadius = 6
-    
   }
-
+  
+  // Initialize custom view
+  private func commonInit() {
+    Bundle.main.loadNibNamed("RegistrationAlert", owner: self, options: nil)
+    addSubview(containerView)
+    containerView.frame = bounds
+  }
 }

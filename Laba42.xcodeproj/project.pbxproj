@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		25333C3C23A9187800534045 /* LaunchScreenFake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25333C3B23A9187800534045 /* LaunchScreenFake.storyboard */; };
-		2579F76B23A9FDF300443F98 /* PreRegistrationAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2579F76A23A9FDF300443F98 /* PreRegistrationAlert.xib */; };
+		2556EBA423AE0041006D3ABC /* PreviewRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBA323AE0040006D3ABC /* PreviewRegistrationVC.swift */; };
+		2556EBA623AE00FC006D3ABC /* PreviewRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2556EBA523AE00FC006D3ABC /* PreviewRegistration.storyboard */; };
+		2556EBA823AE0396006D3ABC /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBA723AE0396006D3ABC /* OfferCell.swift */; };
+		2556EBAB23AE2090006D3ABC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBAA23AE2090006D3ABC /* NetworkService.swift */; };
+		2556EBAD23AE2FB7006D3ABC /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBAC23AE2FB7006D3ABC /* NetworkDataFetcher.swift */; };
+		2556EBAF23AE2FF9006D3ABC /* OfferCompactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBAE23AE2FF9006D3ABC /* OfferCompactModel.swift */; };
+		2556EBBD23AE4547006D3ABC /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556EBBB23AE4547006D3ABC /* TagCell.swift */; };
+		2556EBBE23AE4547006D3ABC /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2556EBBC23AE4547006D3ABC /* TagCell.xib */; };
+		2579F76B23A9FDF300443F98 /* RegistrationAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2579F76A23A9FDF300443F98 /* RegistrationAlert.xib */; };
 		2579F76D23A9FFF900443F98 /* LaunchScreenFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258BA8BC23A90ECE00AFB4B1 /* LaunchScreenFake.swift */; };
 		2579F77023AA01B900443F98 /* LaunchScreenFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579F76F23AA01B900443F98 /* LaunchScreenFakeTests.swift */; };
 		2579F77223AA029600443F98 /* RegistrationAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579F77123AA029600443F98 /* RegistrationAlertView.swift */; };
@@ -47,7 +55,15 @@
 		25333C4123A91DFE00534045 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 		25333C4223A91DFE00534045 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		25333C4323A91F8700534045 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		2579F76A23A9FDF300443F98 /* PreRegistrationAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreRegistrationAlert.xib; sourceTree = "<group>"; };
+		2556EBA323AE0040006D3ABC /* PreviewRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewRegistrationVC.swift; sourceTree = "<group>"; };
+		2556EBA523AE00FC006D3ABC /* PreviewRegistration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreviewRegistration.storyboard; sourceTree = "<group>"; };
+		2556EBA723AE0396006D3ABC /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		2556EBAA23AE2090006D3ABC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2556EBAC23AE2FB7006D3ABC /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		2556EBAE23AE2FF9006D3ABC /* OfferCompactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCompactModel.swift; sourceTree = "<group>"; };
+		2556EBBB23AE4547006D3ABC /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		2556EBBC23AE4547006D3ABC /* TagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		2579F76A23A9FDF300443F98 /* RegistrationAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationAlert.xib; sourceTree = "<group>"; };
 		2579F76F23AA01B900443F98 /* LaunchScreenFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenFakeTests.swift; sourceTree = "<group>"; };
 		2579F77123AA029600443F98 /* RegistrationAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationAlertView.swift; sourceTree = "<group>"; };
 		2579F77723AA121200443F98 /* Offer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Offer.xib; sourceTree = "<group>"; };
@@ -122,43 +138,61 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		2579F76623A9FD4900443F98 /* OffersPreview */ = {
+		2556EBA923AE207A006D3ABC /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				2579F77323AA05A200443F98 /* PreRegistrationVC */,
-				2579F76723A9FD6400443F98 /* PreRegistrationAlert */,
+				2556EBAC23AE2FB7006D3ABC /* NetworkDataFetcher.swift */,
+				2556EBAA23AE2090006D3ABC /* NetworkService.swift */,
 			);
-			path = OffersPreview;
+			path = Networking;
 			sourceTree = "<group>";
 		};
-		2579F76723A9FD6400443F98 /* PreRegistrationAlert */ = {
+		2556EBB023AE3BAB006D3ABC /* Exstensions */ = {
 			isa = PBXGroup;
 			children = (
-				2579F76923A9FD9E00443F98 /* PreRegistrateAlertController */,
-				2579F76823A9FD8E00443F98 /* RegistrateAlertView */,
 			);
-			path = PreRegistrationAlert;
+			path = Exstensions;
 			sourceTree = "<group>";
 		};
-		2579F76823A9FD8E00443F98 /* RegistrateAlertView */ = {
+		2556EBBF23AE4797006D3ABC /* TagCell */ = {
 			isa = PBXGroup;
 			children = (
-				2579F76A23A9FDF300443F98 /* PreRegistrationAlert.xib */,
+				2556EBBB23AE4547006D3ABC /* TagCell.swift */,
+				2556EBBC23AE4547006D3ABC /* TagCell.xib */,
 			);
-			path = RegistrateAlertView;
+			path = TagCell;
 			sourceTree = "<group>";
 		};
-		2579F76923A9FD9E00443F98 /* PreRegistrateAlertController */ = {
+		2579F76623A9FD4900443F98 /* PreviewRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				2579F77323AA05A200443F98 /* PreviewRegistrationView */,
+				2579F76723A9FD6400443F98 /* PreviewRegistrationAlert */,
+			);
+			path = PreviewRegistration;
+			sourceTree = "<group>";
+		};
+		2579F76723A9FD6400443F98 /* PreviewRegistrationAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2579F76923A9FD9E00443F98 /* PreviewRegistrationAlert */,
+			);
+			path = PreviewRegistrationAlert;
+			sourceTree = "<group>";
+		};
+		2579F76923A9FD9E00443F98 /* PreviewRegistrationAlert */ = {
 			isa = PBXGroup;
 			children = (
 				2579F77123AA029600443F98 /* RegistrationAlertView.swift */,
+				2579F76A23A9FDF300443F98 /* RegistrationAlert.xib */,
 			);
-			path = PreRegistrateAlertController;
+			path = PreviewRegistrationAlert;
 			sourceTree = "<group>";
 		};
 		2579F76C23A9FF4900443F98 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				2556EBB023AE3BAB006D3ABC /* Exstensions */,
 				25D30F9B23A8EBFD0047C746 /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -172,27 +206,24 @@
 			path = LaunchScreenFakeTest;
 			sourceTree = "<group>";
 		};
-		2579F77323AA05A200443F98 /* PreRegistrationVC */ = {
+		2579F77323AA05A200443F98 /* PreviewRegistrationView */ = {
 			isa = PBXGroup;
 			children = (
+				2556EBA323AE0040006D3ABC /* PreviewRegistrationVC.swift */,
+				2556EBA523AE00FC006D3ABC /* PreviewRegistration.storyboard */,
 			);
-			path = PreRegistrationVC;
+			path = PreviewRegistrationView;
 			sourceTree = "<group>";
 		};
 		2579F77523AA0D9E00443F98 /* Offer */ = {
 			isa = PBXGroup;
 			children = (
 				2579F77723AA121200443F98 /* Offer.xib */,
+				2556EBA723AE0396006D3ABC /* OfferCell.swift */,
+				2556EBAE23AE2FF9006D3ABC /* OfferCompactModel.swift */,
+				2556EBBF23AE4797006D3ABC /* TagCell */,
 			);
 			path = Offer;
-			sourceTree = "<group>";
-		};
-		2579F77623AA101400443F98 /* OffersView */ = {
-			isa = PBXGroup;
-			children = (
-				2579F76623A9FD4900443F98 /* OffersPreview */,
-			);
-			path = OffersView;
 			sourceTree = "<group>";
 		};
 		258BA8BA23A90C0C00AFB4B1 /* LaunchScreen */ = {
@@ -237,9 +268,10 @@
 			isa = PBXGroup;
 			children = (
 				2579F76C23A9FF4900443F98 /* Application */,
+				2556EBA923AE207A006D3ABC /* Networking */,
 				258BA8BA23A90C0C00AFB4B1 /* LaunchScreen */,
 				2579F77523AA0D9E00443F98 /* Offer */,
-				2579F77623AA101400443F98 /* OffersView */,
+				2579F76623A9FD4900443F98 /* PreviewRegistration */,
 				25333C3A23A9122D00534045 /* SupportingFiles */,
 				25D30F9F23A8EBFD0047C746 /* Laba42.xcdatamodeld */,
 				25D30FA623A8EBFF0047C746 /* Preview Content */,
@@ -378,9 +410,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2556EBBE23AE4547006D3ABC /* TagCell.xib in Resources */,
 				25333C3C23A9187800534045 /* LaunchScreenFake.storyboard in Resources */,
-				2579F76B23A9FDF300443F98 /* PreRegistrationAlert.xib in Resources */,
+				2579F76B23A9FDF300443F98 /* RegistrationAlert.xib in Resources */,
 				2579F77823AA121200443F98 /* Offer.xib in Resources */,
+				2556EBA623AE00FC006D3ABC /* PreviewRegistration.storyboard in Resources */,
 				25D30FAB23A8EBFF0047C746 /* LaunchScreen.storyboard in Resources */,
 				25D30FA823A8EBFF0047C746 /* Preview Assets.xcassets in Resources */,
 				25D30FA523A8EBFF0047C746 /* Assets.xcassets in Resources */,
@@ -408,10 +442,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2556EBAD23AE2FB7006D3ABC /* NetworkDataFetcher.swift in Sources */,
 				2579F77223AA029600443F98 /* RegistrationAlertView.swift in Sources */,
+				2556EBBD23AE4547006D3ABC /* TagCell.swift in Sources */,
 				25D30F9C23A8EBFD0047C746 /* AppDelegate.swift in Sources */,
+				2556EBA823AE0396006D3ABC /* OfferCell.swift in Sources */,
+				2556EBA423AE0041006D3ABC /* PreviewRegistrationVC.swift in Sources */,
 				25D30FA123A8EBFD0047C746 /* Laba42.xcdatamodeld in Sources */,
 				258BA8BD23A90ECE00AFB4B1 /* LaunchScreenFake.swift in Sources */,
+				2556EBAB23AE2090006D3ABC /* NetworkService.swift in Sources */,
+				2556EBAF23AE2FF9006D3ABC /* OfferCompactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

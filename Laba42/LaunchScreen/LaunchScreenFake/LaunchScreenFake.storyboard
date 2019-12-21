@@ -98,6 +98,7 @@
                         <outlet property="secondTextLabel" destination="s6x-JT-mFf" id="o7O-Rg-lR8"/>
                         <outlet property="thirdLine" destination="BCk-qd-cai" id="imY-x0-Xmn"/>
                         <outlet property="thirdTextLabel" destination="Ske-pL-mg2" id="781-fR-Qm5"/>
+                        <segue destination="9VD-AO-0K4" kind="show" id="zWG-rS-P17"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3K-iU-gxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -109,6 +110,16 @@
                 </view>
             </objects>
             <point key="canvasLocation" x="-117.59999999999999" y="113.79310344827587"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="vBW-Qh-d0c">
+            <objects>
+                <viewControllerPlaceholder id="9VD-AO-0K4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KEj-ND-a1L"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zU5-rk-ld7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="114"/>
         </scene>
     </scenes>
     <resources>
